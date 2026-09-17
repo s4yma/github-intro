@@ -1,0 +1,44 @@
+Structure of a website--> HTML
+HTML--> Hyper Text Markup Language
+<>/code -->Any function written in "<>" is called "tag".
+
+
+Structure/skeleton of HTML:-
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Name of tab</title>
+</head>
+
+<body>
+    <h1>Heading</h1>  -->heading of something ina website.There are different sizes starting from <h1>(largest bolded) 
+                         upto <h6>(smallest bolded size).This tag isn't a part of the basic structure of HTML.Multiple
+                         heading is applicable.
+    <hr> -->To draw a horizontal line.This tag isn't a part of the basic structure of HTML.
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore
+       magna aliqua. <br> Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+       commodoconsequat.Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla
+       pariatur.</p>
+   
+    *<p> </p>* --> paragraph tag. Main contents of a website is written here.This tag isn't a part of the basic
+                   structure of HTML. 
+    *<br>* -->Break tag. It's a self closing tag which means it has no ending. It skips a line in a paragraph.This tag
+              isn't a part of the basic structure of HTML.
+               
+    <img src="Catnoir.jpg",height="100" width="100" align="left"> -->Image tag."src" means source of the image.Height,
+                                                                     width and align are for size of image.This tag 
+                                                                     isn't a part of the basic structure of HTML.
+    <hr>  
+    <a href="Link of different website">Texts on which by clicking we go to that web</a> -->Anchor tag. Used for links.
+                                                                                            href means hyper reference.
+                                                                                            This tag isn't a part of 
+                                                                                           the basic structure of HTML.
+
+
+</body>
+
+</html>

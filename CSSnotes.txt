@@ -1,0 +1,80 @@
+*CSS--> Cascading style sheets
+Codes of CSS is known as "Properties".
+*CSS is of 3 types:-
+1)Inline CSS
+2)Internal CSS
+3)External CSS 
+
+*Inline CSS: This is a kind of CSS which is written inside a tag.
+
+*Internal CSS: This is kind of CSS which written inside a HTML file.
+
+*External CSS: This is a kind of CSS which is written by making a totally new CSS file.
+
+*In Internal CSS, we call different functions(For ex:-body,h1,a,p,etc.) and add different features and upgradings to 
+ it.
+
+*When we write something by using "style" tag in "head", it is called Internal CSS.
+
+*When we write internal css in the style tag, we will use "{}" after the name of the tag we're calling.
+
+*When we write something by using "style" attribute  inside a "tag", it is called inline css.
+
+For ex:-
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My web</title>
+
+    <style>
+        h1{
+            font-size: 80px;
+            background-color: lavender;
+            color: black;  ---------> for texts
+        }
+        a{
+            font-size: 30px;
+            color: lightyellow; ---------> for texts
+        }
+        body{
+            background-color: darkred;
+            background-image:url(bg1.jpg) ;
+            background-size: 100%;
+            background-attachment: fixed;
+            color: #FFE3BB; ---------> for texts
+            text-align: center;
+        }
+        .para{
+            background-color: rgba(0, 0, 0, 0.3);
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Hello</h1>
+    <centre> ------> for alignment in centre
+    <h2 style="font-size: 60px;">My name is Mamu EKTA GUUU</h2>
+    <hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.<br><br> Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur.
+	<br><br>
+    <img src="Catnoir.jpg",height="100" width="100" align="left"> <br>
+
+    Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <a href="https://dreamers.lead.academy/">Visit dreamers dashboard </a>
+
+    <img src="ladybug.webp", height="400" width="370">      
+ 
+    </div>
+    <p class="para">Bangladesh,[a] officially the People's Republic of Bangladesh,[b] is a country in South Asia. It is the eighth-most populous country in the world and among the most densely populated with a population of over 171 million within an area of 148,460 square kilometres (57,320 sq mi). <br><br>
+    Bangladesh shares land borders with India to the north, west, and east, and Myanmar to the southeast. It has a coastline along the Bay of Bengal to its south and is separated from Bhutan and Nepal by the Siliguri Corridor, and from China by the Indian state of Sikkim to its north. Dhaka, the capital and largest city, is the nation's political, financial, and cultural centre. Chittagong is the second-largest city and the busiest port of the country.</p>
+    </centre>
+</body>
+</html>
